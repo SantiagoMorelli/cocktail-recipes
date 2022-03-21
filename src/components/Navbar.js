@@ -12,7 +12,8 @@ export default function Navbar() {
         <div>
           <SearchForm />
         </div>
-        <div>
+
+        <div className='nav-links'>
           <Link to='/'>
             <h1 className='logo'>
               Lets go for a <FaCocktail />
@@ -21,8 +22,6 @@ export default function Navbar() {
               <FaCocktail />
             </h1>
           </Link>
-        </div>
-        <div>
           <Link to='/about'>
             <h1 className='logo'>
               About <FaBook />
