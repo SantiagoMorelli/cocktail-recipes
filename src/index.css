@@ -139,6 +139,7 @@ Navbar
   align-items: center;
   border-bottom: 2px solid var(--primaryColor);
   box-shadow: var(--lightShadow);
+  justify-content: space-around;
 }
 .nav-center {
   display: flex;
